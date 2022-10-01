@@ -80,12 +80,12 @@ export default class TransactionScreen extends Component {
           </TouchableOpacity> 
         */}
 
-        {/*
+        
           <TouchableOpacity
             style={[styles.button, { marginTop: 25 }]}
             onPress={() => this.getCameraPermissions("scanner")}
           />
-        */}
+        
        
       </View>
     );
